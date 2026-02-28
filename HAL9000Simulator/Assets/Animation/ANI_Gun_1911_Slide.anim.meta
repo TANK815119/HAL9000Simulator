@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+<<<<<<<< HEAD:Dronetrix/Assets/Vehicles/MDL_Dovbush 1.controller.meta
+guid: 68d9028631e234d47b779bcfe04bff1e
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 9100000
+========
+guid: 311719708a390c943a7d9301523c9918
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 7400000
+>>>>>>>> gun-1911:Dronetrix/Assets/Animation/ANI_Gun_1911_Slide.anim.meta
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
