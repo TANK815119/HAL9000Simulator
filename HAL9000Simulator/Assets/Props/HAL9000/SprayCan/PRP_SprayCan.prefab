@@ -393,10 +393,19 @@ MonoBehaviour:
   - {fileID: 2803450501487047424}
   - {fileID: 4446311961757392200}
   recoilOrigin: {fileID: 1336688784915438413}
-  casingOrigin: {fileID: 0}
+  casingOrigin: {fileID: 1336688784915438413}
   spentCasing: {fileID: 0}
   round: {fileID: 0}
   sprayEffect: {fileID: 2584633404001754405}
+  paintDecalPrefab: {fileID: 6059125584104034302, guid: e724f55a7732e50449ff4aca3788090b, type: 3}
+  paintColor: {r: 1, g: 0, b: 1, a: 1}
+  sprayDegrees: 0.15
+  sprayRange: 1
+  stampsPerSecond: 12
+  paintableLayers:
+    serializedVersion: 2
+    m_Bits: 123127
+  maxDecals: 80
 --- !u!114 &2374834943893637087
 MonoBehaviour:
   m_ObjectHideFlags: 0
