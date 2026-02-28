@@ -1,0 +1,41 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1045 &1
+EditorBuildSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Scenes:
+  - enabled: 0
+    path: Assets/Scenes/PhysicsSurvivalVR/MainMenu.unity
+    guid: 1dd89e9ca86f90a4da8603056712761e
+  - enabled: 0
+    path: Assets/Scenes/PlaneMainMenu.unity
+    guid: 0c53848f997d44046aa9a196114f164a
+  - enabled: 0
+    path: Assets/Scenes/Playground.unity
+    guid: 7897d31fa35604a5e80782310216afbd
+  - enabled: 0
+    path: Assets/Scenes/PhysicsSurvivalVR/IslandTerrain.unity
+    guid: c4852c2fab759e846b82b75f28db5918
+  - enabled: 0
+    path: Assets/Scenes/PhysicsSurvivalVR/IslandGenerated.unity
+    guid: d44c66b43c5ece44b908e42554e36a4e
+  - enabled: 0
+    path: Assets/Scenes/PhysicsSurvivalVR/MainIsland.unity
+    guid: 0d7380c8cc0f1e0469b5cee3a2c14fdd
+  - enabled: 0
+    path: Assets/Scenes/PhysicsSurvivalVR/Lobby.unity
+    guid: d6259c0a4fd84e943b0af94be36f33cc
+  - enabled: 0
+    path: Assets/Scenes/PhysicsSurvivalVR/BakedIsland.unity
+    guid: 92df0a5233c5c8543a996af8b42c0207
+  - enabled: 0
+    path: Assets/Scenes/PhysicsSurvivalVR/LobbyEnd.unity
+    guid: 0b40b7a3a2ae657469e97a1e3faf4375
+  - enabled: 0
+    path: Assets/Scenes/Battlefield.unity
+    guid: f26ef3926d9c177428bceb4cd752375f
+  m_configObjects:
+    Unity.XR.Oculus.Settings: {fileID: 11400000, guid: a4f9907d991fb90489ee2312e0430647, type: 2}
+    com.unity.xr.management.loader_settings: {fileID: 11400000, guid: 83b193fe051ee6e4aa3468df898cce1e, type: 2}
+    com.unity.xr.openxr.settings4: {fileID: 11400000, guid: 28b0df316b5c8b64db8f4b4060108999, type: 2}
