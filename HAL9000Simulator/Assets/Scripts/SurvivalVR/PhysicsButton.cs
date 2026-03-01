@@ -13,8 +13,10 @@ namespace Rekabsen
         [SerializeField] Collider detectionTrigger;
         [SerializeField] Component actionScriptOfButtonActionInterface; //must be ButtonActionInterface
         [SerializeField] AudioClip buttonClick;
+        [SerializeField] float cooldown = 0.5f;
 
         private ButtonActionInterface actionScript;
+        private float lastPressedTime = -Mathf.Infinity;
 
         private void Start()
         {
@@ -23,8 +25,9 @@ namespace Rekabsen
 
         private void OnTriggerEnter(Collider other)
         {
-            if(other.Equals(detectionTrigger))
+            if(other.Equals(detectionTrigger) && Time.time - lastPressedTime >= cooldown)
             {
+                lastPressedTime = Time.time;
                 AudioSource.PlayClipAtPoint(buttonClick, this.transform.position);
                 actionScript.Play();
             }
