@@ -448,6 +448,10 @@ PrefabInstance:
       propertyPath: m_Enabled
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 5645079984386036941, guid: 4b7fca7c9f4f188489dc639bd7c22b5c, type: 3}
+      propertyPath: m_Drag
+      value: 5
+      objectReference: {fileID: 0}
     - target: {fileID: 6236446968469464640, guid: 4b7fca7c9f4f188489dc639bd7c22b5c, type: 3}
       propertyPath: m_Enabled
       value: 0
