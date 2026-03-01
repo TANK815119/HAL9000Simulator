@@ -49,11 +49,11 @@ public class HALSingleton : MonoBehaviour
 
     public void ActivateLight(int n)
     {
-        if (n != 4 && halPerceptive)
-        {
-            Debug.Log("HAL is currently disabling lights. Cannot activate light " + n);
-            return;
-        }
+        //if (n != 4 && halPerceptive)
+        //{
+        //    Debug.Log("HAL is currently disabling lights. Cannot activate light " + n);
+        //    return;
+        //}
 
         switch (n)
         {
