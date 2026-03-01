@@ -12,7 +12,7 @@ public class AudioTrigger : MonoBehaviour
     void OnTriggerEnter(Collider other)
     {
         // Debug.Log("Trigger hit by: " + other.name);
-        if (!isPlayed)
+        if (!isPlayed && other.CompareTag("Body"))
         {
             isPlayed = true;
             hal.PlayHalAudio(voiceLine);

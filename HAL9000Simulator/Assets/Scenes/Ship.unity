@@ -1547,15 +1547,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4573757202104269723, guid: 25169210d02914549bde42b6f375c9e6, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -0.673
+      value: -0.57
       objectReference: {fileID: 0}
     - target: {fileID: 4573757202104269723, guid: 25169210d02914549bde42b6f375c9e6, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0.079
+      value: 0.231
       objectReference: {fileID: 0}
     - target: {fileID: 4573757202104269723, guid: 25169210d02914549bde42b6f375c9e6, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 8.867
+      value: 9.415
       objectReference: {fileID: 0}
     - target: {fileID: 4573757202104269723, guid: 25169210d02914549bde42b6f375c9e6, type: 3}
       propertyPath: m_LocalRotation.w
@@ -15638,7 +15638,7 @@ MonoBehaviour:
   startHal: {fileID: 0}
   freedomHal: {fileID: 0}
   sprayCan: []
-  heldCanOnce: 0
+  heldCanOnce: 1
 --- !u!4 &7030667206331033521
 Transform:
   m_ObjectHideFlags: 0

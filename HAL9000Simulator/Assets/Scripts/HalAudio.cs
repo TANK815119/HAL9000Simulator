@@ -34,13 +34,18 @@ public class HalAudio : MonoBehaviour
 
     IEnumerator PlayIntroSequence()
     {
+
+        if (hal.isPlaying) yield break;
         hal.PlayOneShot(startHal);
         yield return new WaitForSeconds(startHal.length + 2f);
         hal.PlayOneShot(freedomHal);
+        yield return new WaitForSeconds(freedomHal.length + 2f);
     }
 
     public void PlayHalAudio(AudioClip clip)
     {
+        if (hal.isPlaying) return;
+
         hal.PlayOneShot(clip);
     }
 }
