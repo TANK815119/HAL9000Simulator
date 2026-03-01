@@ -4,9 +4,6 @@ Our inspiration came after watching the movie _2001: A Space Odyssey_. We wanted
 ## What it does
 It is a virtual reality experience that places the player aboard the Discovery One. The main goal is to turn off HAL 9000 by solving the puzzle and navigating his watchful eye. In addition, it explores the idea of being in space with the help of AI. In this situation, it specifically puts a negative spin on the use of AI to make the audience aware of the risks associated with AI. Overarching the design, it provides a microgravity experience that is mostly inaccessible for people to experience in real life.
 
-
-HAL 9000 VR is an immersive simulation that places users aboard the Discovery One. While many space simulations focus on the beauty of the stars, our experience explores the darker risks of delegating total control to AI. Players must navigate a high-stakes environment where their mechanical "assistant" has become their primary antagonist. Beyond the narrative, the simulation provides a physics-driven microgravity experience, allowing users to feel the weightlessness of deep space—a sensation nearly impossible to replicate in the physical world.
-
 ## How we built it
 We used Blender to create 3D models of the experience's most vital rooms, the main room and the server room. Unity was used to put everything together, from the custom, physics-based character rig that simulates microgravity, to the game's puzzles that rids the ship of the rule of HAL 9000. 
 
@@ -21,3 +18,4 @@ This project taught us the importance of technical management. On the design sid
 
 ## What's next for HAL9000 VR Simulation
 The core movement rig we developed is the main accomplishment of the project. We plan to adapt it for other space-based experiences, such as exploring the SpaceX Starship. For the HAL9000 VR Simulation, we also hope to integrate a live voice-recognition API so that players can actually speak to HAL, which would truly replicate Dave's experience from 2001: A Space Odyssey. 
+
