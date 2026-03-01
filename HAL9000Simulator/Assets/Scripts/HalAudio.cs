@@ -15,20 +15,86 @@ public class HalAudio : MonoBehaviour
 
     // can variables
     public GrabSurface[] sprayCan;
+    public GrabSurface cylinder;
+    public GrabSurface rightTrigger;
+    public GrabSurface leftTrigger;
     public bool heldCanOnce = false;
 
     void Update()
     {
+        //if (heldCanOnce)
+        //{
+        //    return;
+        //}
+        //if (cylinder == null || rightTrigger == null || leftTrigger == null)
+        //{
+        //    Debug.Log("Early Return");
+        //    return;
+        //}
+        //if (cylinder.RightHandGrabbed || cylinder.LeftHandGrabbed)
+        //{
+        //    Debug.Log("Started Hal Intro Sequence");
+        //    heldCanOnce = true;
+        //    StartCoroutine(PlayIntroSequence());
+
+        //}
+        //else if (rightTrigger.RightHandGrabbed || rightTrigger.LeftHandGrabbed)
+        //{
+        //    Debug.Log("Started Hal Intro Sequence");
+        //    heldCanOnce = true;
+        //    StartCoroutine(PlayIntroSequence());
+
+        //}
+        //else if (leftTrigger.RightHandGrabbed || leftTrigger.LeftHandGrabbed)
+        //{
+        //    Debug.Log("Started Hal Intro Sequence");
+        //    heldCanOnce = true;
+        //    StartCoroutine(PlayIntroSequence());
+
+        //}
         if (!heldCanOnce)
         {
             foreach (GrabSurface grip in sprayCan)
             {
                 if (grip.RightHandGrabbed || grip.LeftHandGrabbed)
                 {
+                    Debug.Log("Started Hal Intro Sequence");
                     heldCanOnce = true;
                     StartCoroutine(PlayIntroSequence());
+
                 }
             }
+            //if (cylinder.RightHandGrabbed || cylinder.LeftHandGrabbed)
+            //{
+            //    Debug.Log("Started Hal Intro Sequence");
+            //    heldCanOnce = true;
+            //    StartCoroutine(PlayIntroSequence());
+
+            //}
+            //else if (rightTrigger.RightHandGrabbed || rightTrigger.LeftHandGrabbed)
+            //{
+            //    Debug.Log("Started Hal Intro Sequence");
+            //    heldCanOnce = true;
+            //    StartCoroutine(PlayIntroSequence());
+
+            //}
+            //else if (leftTrigger.RightHandGrabbed || leftTrigger.LeftHandGrabbed)
+            //{
+            //    Debug.Log("Started Hal Intro Sequence");
+            //    heldCanOnce = true;
+            //    StartCoroutine(PlayIntroSequence());
+
+            //}
+        }
+    }
+
+    public void StartHalIntro()
+    {
+        if (!heldCanOnce)
+        {
+            Debug.Log("Started Hal Intro Sequence");
+            heldCanOnce = true;
+            StartCoroutine(PlayIntroSequence());
         }
     }
 
