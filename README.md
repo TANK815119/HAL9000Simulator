@@ -1,91 +1,23 @@
-<<<<<<< HEAD
-Physics-Based VR Engine
+## Inspiration
+Our inspiration came after watching the movie _2001: A Space Odyssey_. We wanted to create a VR simulation that brings the user into an encounter with HAL 9000--the iconic, malfunctioning AI who takes control over the Discovery One. This idea caught our attention because of the HackIllinois theme of space and of course, the increasing popularity of AI.
 
-Overview:
+## What it does
+It is a virtual reality experience that places the player aboard the Discovery One. The main goal is to turn off HAL 9000 by solving the puzzle and navigating his watchful eye. In addition, it explores the idea of being in space with the help of AI. In this situation, it specifically puts a negative spin on the use of AI to make the audience aware of the risks associated with AI. Overarching the design, it provides a microgravity experience that is mostly inaccessible for people to experience in real life.
 
-The Physics-Based VR Engine is a robust, modular interaction system designed to bring advanced physics interactions to virtual reality experiences. Inspired by VR titles such as Boneworks and Bonelab, this project aims to create a comprehensive physics rig that enables realistic object manipulation, movement, and environmental interaction.
 
-This engine's core systems are:
-Grabbing and manipulating objects
-Body physics simulation
-Environmental interactions
-Multiplayer support
+HAL 9000 VR is an immersive simulation that places users aboard the Discovery One. While many space simulations focus on the beauty of the stars, our experience explores the darker risks of delegating total control to AI. Players must navigate a high-stakes environment where their mechanical "assistant" has become their primary antagonist. Beyond the narrative, the simulation provides a physics-driven microgravity experience, allowing users to feel the weightlessness of deep space—a sensation nearly impossible to replicate in the physical world.
 
-Features:
+## How we built it
+We used Blender to create 3D models of the experience's most vital rooms, the main room and the server room. Unity was used to put everything together, from the custom, physics-based character rig that simulates microgravity, to the game's puzzles that rids the ship of the rule of HAL 9000. 
 
-Advanced Physics Rig
+## Challenges we ran into
+One major error that cost us a lot of time was when trying to commit files that were too large. Although everything was saved locally, this meant we could not collaborate very effectively. However, we figured it out and could finally work in the project together. Moreover, there was lots and trial and error in creating textures for the models. This was one of the most important elements that would let the game feel somewhat realistic, so we were forced to push through. This really helped the project come together, so it was worth it. 
 
--Full-body physics simulation for VR characters
--Dynamic object interaction based on real-world physics
+## Accomplishments that we're proud of
+We are proud of the accurate simulation of microgravity movement in virtual reality in a physics-based body. 
 
-Grabbing and Manipulation
+## What we learned
+This project taught us the importance of technical management. On the design side, we learned how to use spatial audio and textures to create a realistic and convincing experience. We also gained an appreciation for Newtonian physics in a game engine, because it definitely was a challenge to figure out how the player was going to move around without being able to walk. 
 
--Physics-based grabbing system that adapts to object shapes and sizes
--Two-handed interactions for large objects
--Support for realistic force application (e.g., pushing, pulling, throwing)
-
-Environmental Interactions
-
--Automated water physics
--Physics object adhesion
--Dynamic environments that respond to player actions
-
-Multiplayer Support
-
--Networked interactions using Unity's Netcode for GameObjects (NGO)
--Synced physics objects across clients
--Support for both single-player and multiplayer modes
-
-Informational videos:
-
-https://www.youtube.com/watch?v=SSqnNmdnhqI&t=4s - General overview of why this exists
-https://www.youtube.com/watch?v=GMJcr0ZyzII - Fundamentals of the VR physics rig
-https://www.youtube.com/watch?v=2EdgK1L6mEM - How the grabbing system works
-
-Made by Reid(Rekabsen on youtube)
-=======
-Physics-Based VR Engine
-
-Overview:
-
-The Physics-Based VR Engine is a robust, modular interaction system designed to bring advanced physics interactions to virtual reality experiences. Inspired by VR titles such as Boneworks and Bonelab, this project aims to create a comprehensive physics rig that enables realistic object manipulation, movement, and environmental interaction.
-
-This engine's core systems are:
-Grabbing and manipulating objects
-Body physics simulation
-Environmental interactions
-Multiplayer support
-
-Features:
-
-Advanced Physics Rig
-
--Full-body physics simulation for VR characters
--Dynamic object interaction based on real-world physics
-
-Grabbing and Manipulation
-
--Physics-based grabbing system that adapts to object shapes and sizes
--Two-handed interactions for large objects
--Support for realistic force application (e.g., pushing, pulling, throwing)
-
-Environmental Interactions
-
--Automated water physics
--Physics object adhesion
--Dynamic environments that respond to player actions
-
-Multiplayer Support
-
--Networked interactions using Unity's Netcode for GameObjects (NGO)
--Synced physics objects across clients
--Support for both single-player and multiplayer modes
-
-Informational videos:
-
-https://www.youtube.com/watch?v=SSqnNmdnhqI&t=4s - General overview of why this exists
-https://www.youtube.com/watch?v=GMJcr0ZyzII - Fundamentals of the VR physics rig
-https://www.youtube.com/watch?v=2EdgK1L6mEM - How the grabbing system works
-
-Made by Reid(Rekabsen on youtube)
->>>>>>> cc49266855369f718ea89cb47ef06dc33a772856
+## What's next for HAL9000 VR Simulation
+The core movement rig we developed is the main accomplishment of the project. We plan to adapt it for other space-based experiences, such as exploring the SpaceX Starship. For the HAL9000 VR Simulation, we also hope to integrate a live voice-recognition API so that players can actually speak to HAL, which would truly replicate Dave's experience from 2001: A Space Odyssey. 
