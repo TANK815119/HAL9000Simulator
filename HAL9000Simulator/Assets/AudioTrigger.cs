@@ -11,7 +11,7 @@ public class AudioTrigger : MonoBehaviour
 
     void OnTriggerEnter(Collider other)
     {
-        Debug.Log("Trigger hit by: " + other.name);
+        // Debug.Log("Trigger hit by: " + other.name);
         if (!isPlayed)
         {
             isPlayed = true;
