@@ -387,7 +387,7 @@ MonoBehaviour:
   animator: {fileID: 0}
   audioSource: {fileID: 884685540496227204}
   automatic: 0
-  recoil: 20
+  recoil: 30
   bulletMassScale: 1
   pistolGrips:
   - {fileID: 2803450501487047424}
@@ -430,7 +430,7 @@ AudioSource:
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 8300000, guid: 2b8333ae6ac0a5d49bd0d1aef8831bc6, type: 3}
   m_PlayOnAwake: 0
-  m_Volume: 1
+  m_Volume: 0.5
   m_Pitch: 1
   Loop: 1
   Mute: 0
