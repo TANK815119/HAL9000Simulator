@@ -657,9 +657,9 @@ CapsuleCollider:
   m_Enabled: 1
   serializedVersion: 2
   m_Radius: 0.042
-  m_Height: 0.15
+  m_Height: 0.11826776
   m_Direction: 1
-  m_Center: {x: 0, y: -0.04, z: 0}
+  m_Center: {x: 0, y: -0.05586613, z: 0}
 --- !u!114 &8767786092187156806
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -675,7 +675,7 @@ MonoBehaviour:
   <SoftGrip>k__BackingField: 0
   <Surface>k__BackingField: 3
   <Pose>k__BackingField: 1
-  <Priority>k__BackingField: 0.7
+  <Priority>k__BackingField: 0.2
   <Handedness>k__BackingField: 0
   <MonoDirectional>k__BackingField: 0
   <HandOffset>k__BackingField: {fileID: 0}
