@@ -92,6 +92,7 @@ public class SprayCan : Firearm
         {
             stampTimer -= stampInterval;
             TryStampDecal();
+            TrySprayHall();
         }
     }
 
@@ -115,6 +116,21 @@ public class SprayCan : Firearm
 
         if (audioSource != null)
             audioSource.Stop();
+    }
+
+    private void TrySprayHall()
+    {
+        if (HALSingleton.Instance.light4Active) return;
+
+        Vector3 origin = recoilOrigin.position;
+        Vector3 direction = gunBody.transform.right;
+        if (!Physics.Raycast(origin, direction, out RaycastHit hit, sprayRange, paintableLayers))
+            return;
+        if (hit.collider.gameObject.name.Contains("SprayTrigger"))
+        {
+            HALSingleton.Instance.ActivateLight(4);
+            HALSingleton.Instance.SprayHALLens();
+        }
     }
 
     // ─── Decal Stamping ────────────────────────────────────────────────────────
